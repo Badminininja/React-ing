@@ -8,7 +8,7 @@ const Home = () => {
     //e.target is to just show the exact code where the output is coming from
     const handleClickAgain = (name, e) => {
 
-        console.log('You have Clicked a successful button ' + name, e.target);
+        console.log(' You have Clicked a successful button ' + name, e.target);
     }
     const handleClick = () => {
         clicks++; 
